@@ -96,6 +96,19 @@ body {
     background: var(--accent-cyan);
 }
 
+.nav-tagline {
+    text-align: center;
+    padding: 0.5rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-tagline p {
+    color: var(--white);
+    font-size: 0.85rem;
+    margin: 0;
+    opacity: 0.9;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -539,6 +552,31 @@ section {
     font-size: 0.85rem;
     font-weight: 500;
     color: var(--primary-dark);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-contact {
+    text-align: center;
+    padding: 1.5rem 0 0;
+}
+
+.footer-contact-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+}
+
+.footer-contact-line {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    margin: 0;
 }
 
 .footer-content {
