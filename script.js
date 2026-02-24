@@ -133,6 +133,6 @@ const handleFormSubmit = (e) => {
 };
 
 // Console welcome message
-console.log('%c Yakeen Systems ', 'background: #00d4ff; color: #0a1929; font-size: 20px; font-weight: bold;');
+console.log('%c LOGOSYN TECH ', 'background: #00d4ff; color: #0a1929; font-size: 20px; font-weight: bold;');
 console.log('%c Blockchain + AI Solutions ', 'background: #00bfa5; color: white; font-size: 14px;');
-console.log('Intelligent Automation for Enterprise Scale');
+console.log('Engineered for Certainty, Reliability and Resilience');
